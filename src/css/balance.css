@@ -1,0 +1,41 @@
+.container{
+    /* border: 2px solid; */
+    box-shadow: 0px 0px 6px ;
+    padding: 10px;
+ }
+ .main_div{
+     display: flex;
+     flex-wrap: wrap;
+
+ }
+ .income{
+     border: solid 2px;
+     background-color: rgb(51, 206, 51);
+     color: white;
+    max-width: 200px;
+    width: fit-content;
+    padding: 10px;
+     margin-top: 20px;
+     margin-left: 50px;
+ }
+ .expense{
+    border: solid 2px;
+    background-color:red;
+    padding: 10px;
+    max-width: 200px;
+    width: fit-content;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+ }
+ .balance_div{
+     margin-top: 30px;
+     padding: 10px;
+     text-align: center;
+     box-shadow: 0px 0px 10px ;
+ }
+
+/* 
+ .total{
+     border: solid 2px;
+ } */
